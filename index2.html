@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<title>Luchemos contra el cancer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="description" content="Crecion de modelos de pasteles a tu preferencia">
+	<meta name="Keywords" content="Pasteleria, tortas, diseño, eventos">
+	<link rel="shortcut icon" href="img/imagen1.jpg">
+</head>
+<body>
+	<h1>Ayudanos a luchar contra el cancer</h1>
+	<p>Responde las siguientes preguntas sobre el cancer</p>
+	<form>
+		<nav class="menu">
+				<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="">Instagram</a></li>
+						<li><a href="contacto.html">Consultas</a></li>
+						<li><a href="contacto.html">Contactenos</a></li>
+				</ul>
+	</nav>
+		<fieldset>
+
+			<legend>Preguntas</legend>
+			<label>¿Que tipo de cancer tiene?</label>
+			<select id="masa">
+				<optgroup label="TIPOS">
+					<option value="Cánceres de cabeza y cuello" >Cánceres de cabeza y cuello</option>
+					<option value="Cáncer de cuello uterino" >Cáncer de cuello uterino</option>
+					<option value="Cáncer de hígado" >Cáncer de hígado</option>
+					<option value="Cáncer de piel" >Cáncer de piel</option>
+					<option value="Cáncer de riñón">Cáncer de riñón</option>
+					<option value="Cáncer de vejiga">Cáncer de vejiga</option>
+					<option value="Otro">Otro</option>
+					<option value="No tengo cancer">No tengo cancer</option>
+				</optgroup>
+			</select>
+			<label>¿Tiene familiares con cancer? </label>
+			<select id="cubierta">
+				<option value="Si">Si</option>
+				<option value="No">No</option>
+			</select>
+			<label>Subir una imagen que represente la cosa que mas te gusta hacer.</label>
+			<input type="file" name="">
+			<p>¿Ha que edad se le dectecto el cancer?:</p>
+			<div class="numero">
+				<input type="radio" id="24" name="por">
+				<label for="entre 5 a 18">entre 5 a 18</label>
+			</div>
+
+			<div class="numero">
+				<input type="radio" id="12" name="por">
+				<label for="entre 19 a 40">entre 19 a 40</label>
+			</div>
+
+			<div class="numero">
+				<input type="radio" id="5" name="por">
+				<label for="entre 41 o mas ">entre 41 o mas</label>
+			</div>
+			<p>Usted logro superar el cancer</p>
+			<select name="tarjeta" id="tarjeta">
+				<option value="Si">Si</option>
+				<option value="No">No</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Informacion</legend>
+			<p>Deseas que te demos informacion por medio de un correo</p>
+			<select name="informacion" id="informacion">
+				<option value="Si">Si</option>
+				<option value="No">No</option>
+			</select>
+			<p>Què informcion te interesa?</p>
+			<div class="checkbox">
+				<input type="checkbox" name="checkbox" id="recetas">
+				<label for="Medicinas">Medicinas</label>
+			</div>
+
+			<div class="checkbox">
+				<input type="checkbox" name="checkbox" id="promociones">
+				<label for="Recomendaciones">Recomendaciones</label>
+			</div>
+
+			<div class="checkbox">
+				<input type="checkbox" name="checkbox" id="eventos">
+				<label for="eventos">Alimentacion</label>
+			</div>
+
+			<div class="checkbox">
+				<input type="checkbox" name="checkbox" id="cursos">
+				<label for="cursos">otros</label>
+			</div>
+			<p>Escribe aqui con que informacion deseas que ye ayudemos:</p>
+			<textarea name="mensaje" id="mensaje" placeholder="Escribe aqui">
+				
+			</textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos para enviarte un correo con la informacion que necesitas si respondieste la anterior pregunta.</legend>
+			<label>Primer Nombre:</label>
+			<input type="text" placeholder="Tu nombre aquì">
+			<label>Correo electònico:</label>
+			<input type="email" placeholder="ejemplo@gmail.com">
+			<label>Telèfono:</label>
+			<input type="text" placeholder="999 9999 9999 9999">
+			<p>¿Escribe aqui un comentario que darias a las personas con cancer?:</p>
+			<textarea name="mensaje" id="mensaje" placeholder="Escribe aqui">
+			</textarea>
+			<p>¿Cres que este formulario fue util?</p>
+			<select name="tarjeta" id="tarjeta">
+				<option value="Si">Si</option>
+				<option value="No">No</option>
+			</select>
+		</fieldset>
+		<center class="boton"><a href="index.html"><h1>Enviar respuestas</h1></a>
+			<footer class="fin">
+			<div class="izquierda">
+				<p class="abajo">
+					Este formulario fue realizado por <h3>Carlos Mogrovero</h3> estudiante de 2do de informatica de la unidad Educativa Particular Liceo Americano Catolico.
+				</p>
+			</div>
+			<div class="derecha">
+				<p class="sigue">siguenos</p>
+				<center><img src="img/behance.png">
+						<img src="img/instagram.png">
+						<img src="img/twitter.png">
+						<img src="img/youtube.png">
+				</center>
+			</div>
+		</footer>
+		</center>
+	</form>
+</body>
+</html>

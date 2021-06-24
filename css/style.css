@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  background-color: #d0d0d0;
+  font-family: georgia;
+}
+.menu{
+  width: 500px;
+  height: 40px;
+  border: 0px solid #ccc;
+  float: right;
+  margin-top: 30px;
+  background: #006699;
+
+}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 0px solid #ccc;
+  color: #fff; 
+}
+
+.menu ul li a:hover{
+  background: #fff;
+  color: #006699;
+  transition: background 1s, color 1s;
+}
+h1{
+  color: rgb(0,0,100);
+  text-decoration: underline;
+}
+/*Formulario*/
+form{
+  width: 900px;
+  height: auto;
+  padding: 40px;
+  background-color: white;
+  margin: 0 auto;
+}
+fieldset{
+  border.border-radius: 10px;
+  border: 2px solid lightgray;
+  margin: 20px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+legend{
+  font-size: 20px;
+  color: rgb(0,0,100);
+}
+label, p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: rgb(0,0,100); 
+}
+
+/*Input y Textarea*/
+input{
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  width: 800px;
+  height: 25px;
+}
+textarea{
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  width: 800px;
+  height: 100px;
+  margin-left: 45px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: arial;
+}
+input:focus{
+  background-color: white;
+}
+textarea:focus{
+  background-color: white;
+}
+
+/*Select y el input color*/
+select{
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  width: 800px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+#color{
+  width: 100px;
+}
+
+/*Numero porciones*/
+.numero{
+  margin: 5px 10px;
+  font-family: arial;
+}
+.numero input{
+  width: 20px;
+  height: 20px;
+}
+.numero label{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/*Checkbox*/
+.checkbox{
+  margin: 5px 0px;
+}
+.checkbox input{
+  width:20px;
+  height:20px;
+}
+
+/*Botón Comprar*/
+#comprar{
+  width: 425px;
+  height: 55px;
+  background-color: slateblue;
+  color: white;
+  font-size: 24px;
+  margin: 20px;
+}
+#comprar:hover{
+  color: aliceblue;
+  background-color: purple; 
+}
+.abajo{
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+
+}
+.sigue{
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+.fin{
+  background: #062348;
+  overflow: hidden;
+  color: white;
+}

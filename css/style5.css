@@ -1,0 +1,32 @@
+body{
+	background-color:#00ffff;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+h1:hover{
+	background-color:blue;
+}
+
+.testbox{
+	border: 2px;
+	padding: 15px;
+	text-align: center;
+	margin: 20px 5px;
+	width: 400px;
+	box-shadow: inset 8px 8px 10px #909090;
+}
+.img{
+	border:2px;
+    bottom:center;  
+}
+table{
+
+	border-radius: 1em;
+}
+#texto2{
+	border: : 1em;
+}
+
+p{
+	margin: 0;
+}

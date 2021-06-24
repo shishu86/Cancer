@@ -1,0 +1,28 @@
+body{
+	background-color:#ffa500;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+h1:hover{
+	background-color:red;
+}
+
+.testbox{
+	border: 2px;
+	padding: 15px;
+	text-align: center;
+	margin: 20px 5px;
+	width: 400px;
+	box-shadow: inset 8px 8px 10px #909090;
+}
+.img{
+	border:2px;
+    bottom:center;  
+}
+table{
+
+	border-radius: 2em;
+	margin-bottom: 23px;
+	
+	
+
